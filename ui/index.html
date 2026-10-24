@@ -52,12 +52,14 @@
         <select id="when-h" aria-label="Hour"></select>
         <span>:</span>
         <select id="when-m" aria-label="Minute"></select>
-        <select id="when-ap" aria-label="AM or PM"><option>AM</option><option>PM</option></select>
       </div>
       <div class="chips">
+        <button type="button" data-m="1">+1m</button>
         <button type="button" data-m="10">+10m</button>
         <button type="button" data-m="60">+1h</button>
-        <button type="button" data-m="tom">Tomorrow 9:00</button>
+        <button type="button" data-m="-60">-1h</button>
+        <button type="button" data-m="-10">-10m</button>
+        <button type="button" data-m="-1">-1m</button>
       </div>
       <div class="row">
         <button class="primary" id="save" type="submit" style="flex:1">Add reminder</button>
