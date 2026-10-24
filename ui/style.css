@@ -160,7 +160,8 @@ input:focus, select:focus {
 
 .row { display: flex; gap: 8px; }
 .row input { flex: 1; }
-.chips { display: flex; gap: 6px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chips button { flex: 1; min-width: 44px; text-align: center; padding: 6px 4px; font-size: 13px; font-weight: 500; }
 
 button {
   padding: 7px 10px;
@@ -259,7 +260,7 @@ li.over .d { color: var(--bad); }
 .modal .btns { justify-content: center; }
 .modal .btns button { padding: 8px 14px; font-size: 13px; }
 
-/* Time picker (hour : minute AM/PM) */
+/* Time picker (hour : minute) */
 .time-row { align-items: center; }
-.time-row select { flex: 1; }
-.time-row span { color: var(--mut); font-weight: 700; }
+.time-row select { flex: 1; text-align: center; }
+.time-row span { color: var(--mut); font-weight: 700; font-size: 16px; padding: 0 4px; }
