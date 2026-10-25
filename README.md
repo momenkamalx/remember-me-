@@ -9,7 +9,7 @@ A small private reminder app for Windows and Linux. Type what you want to be rem
 ## Features
 - Reminders with a date, a time, and an optional repeat (daily, weekly, monthly)
 - Optional link on a reminder, with an **Open** button on the popup
-- Edit, mark Done, Snooze (10 minutes or 1 hour), Delete
+- Edit, mark Done, Snooze, Delete, Toggel a 24h fromat(off by default).
 - Alert when a reminder is due, with a sound that repeats until you react: a popup in the bottom-right corner on Windows, a system notification on Linux (with Done / Snooze / Open buttons where your desktop supports them)
 - Sound settings: Silent, Chime, Bell, Beep, Digital, Soft, or upload your own file; volume; how many times it repeats; test and stop buttons
 - Global hotkey (default **Alt+X**) to open the app; change it in Settings
