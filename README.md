@@ -42,7 +42,6 @@ A small add-on for Firefox, Chrome, Brave and Edge that sends reminders from you
 ## limits(for now)
 - On Windows the popup cannot draw over games in true exclusive fullscreen. The sound still plays.
 - The Windows installer is not code-signed, so Windows shows a warning the first time.
-- Tested on Windows and on virtual Linux desktops. Not yet tested on real GNOME, KDE or Hyprland.
 
 ## Install on Windows (10 and 11)
 1. Open the [Releases page](https://github.com/momenkamalx/remember-me-/releases) and download the file ending in **`x64-setup.exe`** from the newest release.
