@@ -4,7 +4,7 @@
 
 # Remember Me?
 
-A small private reminder app for Windows and Linux. Type what you want to be reminded about, pick a date and time, and a popup with a sound appears when it is due. Everything stays on your computer: no account, no cloud, no internet needed.
+A small private reminder app for Windows and Linux. Type what you want to be reminded about, pick a date and time, and a popup with a sound appears when it is due. Everything stays on your computer: no account nor cloud and no internet needed.
 
 ## Features
 - Reminders with a date, a time, and an optional repeat (daily, weekly, monthly)
